@@ -2,6 +2,7 @@
 package net.mcreator.myfirstmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -34,7 +35,8 @@ public class CursedLogBlock extends MyfirstmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(0)
+					.harvestTool(ToolType.AXE));
 			setRegistryName("cursed_log");
 		}
 
@@ -43,7 +45,7 @@ public class CursedLogBlock extends MyfirstmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(CursedLogBlock.block, (int) (1)));
 		}
 	}
 }
