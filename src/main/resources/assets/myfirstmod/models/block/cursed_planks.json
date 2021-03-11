@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "myfirstmod:blocks/cursedplanks",
+    "up": "myfirstmod:blocks/cursedplanks",
+    "north": "myfirstmod:blocks/cursedplanks",
+    "east": "myfirstmod:blocks/cursedplanks",
+    "south": "myfirstmod:blocks/cursedplanks",
+    "west": "myfirstmod:blocks/cursedplanks",
+    "particle": "myfirstmod:blocks/cursedplanks"
+  }
+}

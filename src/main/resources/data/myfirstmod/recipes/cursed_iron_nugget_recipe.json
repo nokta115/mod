@@ -1,0 +1,16 @@
+{
+  "group": "myfirstmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "myfirstmod:cursed_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "myfirstmod:cursed_iron_nugget",
+    "count": 9
+  }
+}

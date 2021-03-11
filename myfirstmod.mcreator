@@ -1,0 +1,145 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CursedLog",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_log"
+    },
+    {
+      "name": "CursedPlanks",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_planks"
+    },
+    {
+      "name": "CursedGrass",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_grass"
+    },
+    {
+      "name": "CursedIronOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_iron_ore"
+    },
+    {
+      "name": "CursedIronIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_iron_ingot"
+    },
+    {
+      "name": "CursedIronNugget",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_iron_nugget"
+    },
+    {
+      "name": "CursedIronIngotRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_iron_ingot_recipe"
+    },
+    {
+      "name": "CursedIronNuggetRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_iron_nugget_recipe"
+    },
+    {
+      "name": "CursedIronPickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_iron_pickaxe"
+    },
+    {
+      "name": "CursedIronPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_iron_pickaxe_recipe"
+    },
+    {
+      "name": "CursedBiome",
+      "type": "biome",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_biome"
+    },
+    {
+      "name": "CursedLeaves",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_leaves"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.myfirstmod.cursed_log": "Cursed Log",
+      "block.myfirstmod.cursed_planks": "Cursed Planks",
+      "block.myfirstmod.cursed_iron_ore": "Cursed Iron Ore",
+      "item.myfirstmod.cursed_iron_nugget": "Cursed Iron Nugget",
+      "block.myfirstmod.cursed_grass": "Cursed Grass",
+      "biome.myfirstmod.cursed_biome": "Cursed Biome",
+      "item.myfirstmod.cursed_iron_ingot": "Cursed Iron Ingot",
+      "item.myfirstmod.cursed_iron_pickaxe": "Cursed Iron Pickaxe",
+      "block.myfirstmod.cursed_leaves": "Cursed Leaves"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "myfirstmod",
+    "modName": "MyFirstMod",
+    "version": "1.0.0",
+    "author": "Никита Паршин, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.myfirstmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

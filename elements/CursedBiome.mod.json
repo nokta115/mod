@@ -1,0 +1,67 @@
+{
+  "_fv": 13,
+  "_type": "biome",
+  "definition": {
+    "name": "Cursed Biome",
+    "groundBlock": {
+      "value": "CUSTOM:CursedGrass"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "CUSTOM:CursedLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:CursedLeaves"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "treesPerChunk": 4,
+    "grassPerChunk": 6,
+    "seagrassPerChunk": 20,
+    "flowersPerChunk": 3,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 1,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 1,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.30000000000000004,
+    "heightVariation": 0.30000000000000004,
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeType": "WARM",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Caves",
+      "Ores"
+    ],
+    "spawnEntries": []
+  }
+}

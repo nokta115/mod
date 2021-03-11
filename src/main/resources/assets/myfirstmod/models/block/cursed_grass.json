@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "myfirstmod:blocks/dirtblock",
+    "up": "myfirstmod:blocks/cursedgrass_top",
+    "north": "myfirstmod:blocks/dirt",
+    "east": "myfirstmod:blocks/dirt",
+    "south": "myfirstmod:blocks/dirt",
+    "west": "myfirstmod:blocks/dirt",
+    "particle": "myfirstmod:blocks/dirtblock"
+  }
+}
